@@ -1,0 +1,14 @@
+.productList {
+    margin-top: 30Vh;
+    background-color: #fff;
+    min-height: 500px;
+    position: relative;
+    z-index: 3;
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+ 
+}
+

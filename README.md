@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+For this demo is selected this design: https://www.pinterest.com/pin/224054150196503916
+
 ## Available Scripts
 
 In the project directory, you can run:

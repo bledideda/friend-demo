@@ -1,0 +1,27 @@
+.appSlider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-position: center;
+    background-size: contain;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+    img{
+        width: 200px;
+    }
+}
+.productList {
+    margin-top: 80Vh;
+    background-color: #fff;
+    min-height: 500px;
+    position: relative;
+    z-index: 3;
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+

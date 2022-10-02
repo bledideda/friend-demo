@@ -1,0 +1,36 @@
+.sliderContainer{
+    display: flex;
+    .control{
+        width: 80px;
+        flex-direction: column;
+        display: flex;
+        .button{
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            flex-grow: 1;
+            border: 1px solid #fff;
+            cursor: pointer;
+            &.active{
+                opacity: 0.5;
+            }
+        }
+    }
+    .slider{
+        width: 100%;
+        max-width: 400px;
+        max-height: 600px;
+        height: 1000px;
+        display: block;
+        // background-color: rgb(255, 255, 255);
+        .slide {
+            width: 100%;
+            max-height: 600px;
+            height: 1000px;
+            background-position: center;
+            background-size: cover;
+            border: 1px solid #fff;
+        }
+    }
+}

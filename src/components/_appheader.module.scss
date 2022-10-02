@@ -1,0 +1,72 @@
+.appHeader {
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    .flex {
+        display: flex;
+    }
+    .justifySpaceBetween{
+        justify-content: space-between;
+    }
+    .hamburger{
+        width: 30px;
+        cursor: pointer;
+        position: relative;
+        span {
+            display: block;
+            height: 3px;
+            background-color: #ffffff;
+            margin-bottom: 0.2em;
+            margin-top: 0.2em;
+            border-radius: 4px;
+        }
+    }
+    .actionButton{
+        margin-left: 1em;
+        position: relative;
+        span{
+            display: block;
+            cursor: pointer;
+            svg {
+                fill:#ffffff;
+                width: 20px;
+                height: 20px;
+            }    
+        }
+        i{
+            position: absolute;
+            top: -9px;
+            right: -9px;
+            font-size: 11px;
+            display: flex;
+            background: red;
+            width: 18px;
+            height: 18px;
+            border-radius: 9px;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-style: normal;
+        }
+        .currencySwitch{
+            background-color: #ffffff;
+            padding: 5px 10px;
+            border-radius: 2px;
+            span {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 12px;
+                svg {
+                    fill: grey;
+                    width: 15px;
+                    height: 15px;
+                    margin-top: -3px;
+                }
+            }
+        }
+    }
+}
