@@ -28,11 +28,12 @@ export default class StorageService {
     addItemInBasket(value){
 
         let cart = this.#getItem("cart");
+        if(cart !== null){
+            let existingItmes = this.#checkIfItemExistsIncart(value,cart);
 
-        let existingItmes = this.#checkIfItemExistsIncart(value,cart);
-
-        if(existingItmes.length) {
-            return this.updateBasket(existingItmes[0], existingItmes[0].amount +1)
+            if(existingItmes.length) {
+                return this.updateBasket(existingItmes[0], existingItmes[0].amount +1)
+            }
         }
 
         if(cart !== null){

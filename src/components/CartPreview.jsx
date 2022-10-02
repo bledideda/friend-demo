@@ -54,7 +54,7 @@ export default function CartPreview({isActive, toggleCart}){
                         </div>
                         <div className={styles.cartActions}>
                             <span>Total: {cartAmount.toLocaleString()} NOK</span>
-                            <button className={styles.checkoutButton} onClick={()=>alert("CHECKOUT PAGE UNDER DEVELOPMENT :P")}>Go to checkout</button>
+                            <span className={styles.checkoutButton} onClick={()=>alert("CHECKOUT PAGE UNDER DEVELOPMENT :P")}>Go to checkout</span>
                         </div>
                    </div>
                 </>

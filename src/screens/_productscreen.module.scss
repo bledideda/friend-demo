@@ -8,6 +8,9 @@
         max-width: 1200px;
         margin: auto;
         display: flex;
+        @media screen and (max-width: 420px) {
+            display: block;
+        }
         .productInfo {
             padding: 2em;
             .description {

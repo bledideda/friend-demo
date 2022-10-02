@@ -16,5 +16,14 @@
                 color:#353c3f;
             }
         }
+        @media screen and (max-width: 420px){
+            
+            font-size: 22px;
+            width: 100%;
+            white-space: pre-wrap;
+            display: block;
+            padding: 15px;
+
+        }
     }
 }
