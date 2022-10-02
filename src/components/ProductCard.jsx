@@ -12,7 +12,9 @@ export default function ProductCard({product, goTo}) {
             new Image().src = product.images[0];
             new Image().src = product.images[1];
         }
+        preloadImages();
     })
+    
     return (
         <div  
             className={styles.product} 
